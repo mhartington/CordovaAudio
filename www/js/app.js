@@ -19,7 +19,6 @@ angular.module('starter', ['ionic'])
 })
 
 // for media plugin : http://plugins.cordova.io/#/package/org.apache.cordova.media
-// for media plugin : http://plugins.cordova.io/#/package/org.apache.cordova.media
 .factory('MediaSrv', function($q, $ionicPlatform, $window){
   var service = {
     loadMedia: loadMedia,
